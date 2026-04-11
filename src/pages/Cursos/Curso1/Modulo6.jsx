@@ -19,6 +19,96 @@ const M6s1 = () => {
   );
 };
 
-const Modulo6 = [M6s1];
+const Video = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 6: FÓRMULAS PARA EVITAR ACCIDENTES</h2>
+      <h3>Video</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/IsBwFxUfxXo"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video2 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 6: FÓRMULAS PARA EVITAR ACCIDENTES</h2>
+      <h3>Video: PILARES DEL MANEJO DEFENSIVO</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/H1GXoIRvIxg"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video3 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 6: FÓRMULAS PARA EVITAR ACCIDENTES</h2>
+      <h3>Video: COMO PREVENIR ACCIDENTES Y LOS PILARES QUE NOS AYUDAN</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/lHLhwWIQrBU"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video4 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 6: FÓRMULAS PARA EVITAR ACCIDENTES</h2>
+      <h3>Video: CONDUCCIÓN SEGURA PREVINIENDO ACCIDENTES DE TRÁNSITO</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/LEWOEUqoUqo"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video5 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 6: FÓRMULAS PARA EVITAR ACCIDENTES</h2>
+      <h3>Video: EXCESOS DE VELOCIDAD Y LOS LÍMITES</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/_GvYK-uTnOI"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Modulo6 = [M6s1, Video, Video2, Video3, Video4, Video5];
 
 export default Modulo6;

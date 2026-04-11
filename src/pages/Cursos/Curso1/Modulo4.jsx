@@ -31,6 +31,60 @@ const M4s1 = () => {
   );
 };
 
-const Modulo4 = [M4s1];
+const Video = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 4: TÉCNICAS PREVENTIVAS Y PUNTOS CIEGOS</h2>
+      <h3>Video</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/_Fs2mri_c9I"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video2 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 4: TÉCNICAS PREVENTIVAS Y PUNTOS CIEGOS</h2>
+      <h3>Video: CONDUCCIÓN SEGURA Y PUNTOS CIEGOS</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/COs2IZeRCXc"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video3 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 4: TÉCNICAS PREVENTIVAS Y PUNTOS CIEGOS</h2>
+      <h3>Video: CULTURA DE SEGURIDAD EN LA CONDUCCIÓN</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/AcqR2CmB6GA"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Modulo4 = [M4s1, Video, Video2, Video3];
 
 export default Modulo4;

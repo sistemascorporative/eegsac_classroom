@@ -42,7 +42,7 @@ const ListIconWithBg = ({list, icon}) => {
 
 const ListPoint = ({list}) => {
   return(
-    <ul className="list-disc pl-8 text-[15px] text-gray-600 marker:text-sky-600">
+    <ul className="list-disc pl-8 text-[15px] text-gray-600 marker:text-orange-600">
       {list.map((li, index) => (
         <li key={index} className="mt-1">
           {li}

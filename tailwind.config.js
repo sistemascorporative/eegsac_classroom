@@ -11,7 +11,7 @@ export default {
         'agency': ['Agency FB', 'sans-serif'],
       },
       colors: {
-        primary: '#0082C3',
+        primary: '#ED7105',
         azulOscuro: '#197CAD',
         azulMedio: '#36A6D5',
         azulClaro: '#3BBBE6',

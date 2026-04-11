@@ -1,65 +1,133 @@
-import { ListPoint, ListPointBold } from "../../../components/ui/List";
-import { ImageTextForSection } from "../../../components/ui/Imagen";
+import { ImageForSection } from "../../../components/ui/Imagen";
 
 
-const M2s1 = () => {
+const M13s1 = () => {
   return (
     <div className="space-y-3">
-      <h2 className="uppercase text-center text-secondary">MÓDULO 13: EVALUANDO PELIGROS Y GESTIONANDO LOS RIESGOS EN LA CONDUCCIÓN</h2>
-      <ImageTextForSection
-        src="/img-cursos/10/10mt.jpg"
-        text=""
+      <h2 className="uppercase text-center text-secondary">MÓDULO 13: CONDUCCIÓN EN CONDICIONES ADVERSAS</h2>
+      <ImageForSection
+        src="/img-cursos/1/1m13s1-1.jpeg"
       />
-      La mejor manera de lidear con los riesgos es eliminando los peligros o evitándolos con pasos básicos y fundamentales:
-      Mantén una distancia prudente al conducir
-      Uno de los pilares fundamentales para evitar accidentes en carretera es mantener una distancia adecuada con el vehículo que se encuentra delante. Según la velocidad a la que te desplaces, la distancia segura varía :
-      A 90 km/h : 50 metros.
-      A 100 km/h : 55 metros.
-      A 120 km/h : 66 metros.
-      A 130 km/h : 72 metros.
-      Esta distancia es crucial porque ofrece el tiempo necesario para reaccionar ante cualquier imprevisto en la vía.
-      Evita a toda costa el consumo de bebidas alcohólicas y estupefacientes
-      El alcohol y las drogas alteran las funciones psicomotoras y la percepción sensorial, lo que resulta en reflejos más lentos y una falsa sensación de seguridad. Conducir bajo los efectos de estas sustancias multiplica las posibilidades de sufrir un accidente de tránsito.
-      Protégete a ti y a quienes más quieres
-      Utilizar el cinturón de seguridad es fundamental para prevenir lesiones graves o incluso fatales en caso de colisión. Además, para los más pequeños, usar un sistema de retención infantil adecuado según su edad es indispensable. Como un apasionado de los vehículos, sé que estas medidas son simples pero increíblemente efectivas.
-      Deja a un lado los dispositivos móviles
-      El uso de dispositivos móviles mientras se conduce es una de las principales causas de distracción. Apartar la vista del camino, aunque sea por unos segundos, puede tener consecuencias devastadoras.
-      Enviar mensajes de texto incrementa la posibilidad de accidente en un 400%.
-      Hablar por teléfono, incluso con manos libres, reduce la atención al entorno vial.
-      No excedas los limites de velocidad:
-      Si estas en carretera considera mantener una velocidad prudente en el que puedas maniobrar el vehículo teniendo las 2 manos siempre en el volante.
-      No excedas las horas de conducción si el viaje es largo debes descansar cada 4 horas de noche y 5 horas de dia.
-      Antes de hablar sobre estos riesgos, es importante destacar que los operadores son una pieza clave en el desarrollo económico. Son ellos quienes transportan la mercancía que necesitamos, y mantienen en movimiento al país. Es por eso que debemos valorar y reconocer su trabajo.
-      Sin embargo, también es cierto que hay ciertos hábitos de conducción que ponen en peligro la seguridad de todos en la carretera. Estos hábitos incluyen fumar, comer o beber mientras se conduce, usar el celular, conducir distraído y no usar el cinturón de seguridad. Pero conozcamos por qué estos hábitos de conducción afectan directamente la conducción segura de los operadores y ponen en riesgo su vida, y la de las personas que transitan por las mismas vías de comunicación.
-      1. Fumar mientras se conduce:
-      Mientras se conduce puede distraer al operador, lo que aumenta el riesgo de un accidente. Además, el humo del cigarrillo puede afectar la visibilidad dentro del vehículo de carga, lo que puede resultar peligroso en situaciones de poca luz o en condiciones climáticas adversas.
-      2. Comer o beber mientras se conduce:
-      Comer o beber mientras se conduce puede hacer que el operador pierda la atención en la carretera, lo que puede provocar accidentes. Además, derramar alimentos o bebidas puede distraer al operador, lo que puede provocar accidentes o desastres.
-      3. Ver el celular:
-      En estos días, la mayoría de las personas tiene un teléfono móvil, y es muy común que los operadores lo usen mientras conducen. Revisar correos electrónicos o enviar mensajes de texto, el uso del teléfono móvil mientras se conduce es un gran peligro. El operador distraído puede perder el control del vehículo en un instante, lo que aumenta el riesgo de accidentes.
-      4. Conducir distraído:
-      Hay muchos factores que pueden distraer a un operador mientras está en la carretera. Desde mirar hacia fuera del vehículo hasta ajustar la radio, cualquier cosa que distraiga al operador de la carretera aumenta el riesgo de accidentes. Es importante que estén conscientes de su entorno y mantengan su atención en la carretera en todo momento.
-      5. Operador sin cinturón:
-      Aunque parezca obvio, es importante mencionar que no usar el cinturón de seguridad mientras se conduce es una práctica peligrosa. El cinturón de seguridad es un dispositivo de seguridad fundamental que reduce significativamente el riesgo de lesiones graves o mortales en caso de accidentes.
-
+      <h3>Tips para conducir de forma segura en condiciones adversas</h3>
+      <p>Conducir en condiciones adversas puede ser un desafío, pero con las técnicas adecuadas, es posible mantener la seguridad y el control del vehículo. Aquí hay algunos consejos esenciales para manejar de manera segura en estas circunstancias:</p>
+      <p><strong>Reducir la velocidad:</strong> Conducir más lento te permite tener un mayor control sobre el vehículo y una mayor capacidad de reacción ante imprevistos.</p>
+      <p><strong>Mantener una mayor distancia de seguridad:</strong> Ante cualquier situación climática adversa, es fundamental aumentar la distancia de frenado entre tu vehículo y el que va delante de ti.</p>
+      <p><strong>Encender las luces del coche:</strong> Si se trata de una situación de lluvia, nieve o niebla, es importante tener encendidas las luces del coche para ser más visibles a otros conductores y tener una mejor visibilidad.</p>
+      <p><strong>Evitar maniobras bruscas:</strong> En situaciones climáticas adversas, es importante mantener una conducción suave y evitar maniobras bruscas como frenazos o acelerones.</p>
+      <p><strong>Ten cuidado al conducir en pendientes o curvas:</strong> En situaciones de lluvia o nieve, las pendientes o curvas pueden convertirse en peligrosas. Por eso, es importante reducir la velocidad y mantener una conducción suave.</p>
+      <p>Estos consejos son fundamentales para garantizar la seguridad de todos los ocupantes del vehículo y de los demás usuarios de la vía.</p>
     </div>
   );
 };
 
-const M2s2 = () => {
-  return (
+const Video = () => {
+  return(
     <div className="space-y-3">
-      <h2></h2>
-      <ImageTextForSection
-        src="/img-cursos/10/10ms.png"
-        text=""
-      />
-      <ListPoint list={[
-      ]}/>
+      <h2 className="uppercase text-center text-secondary">MÓDULO 13: CONDUCCIÓN EN CONDICIONES ADVERSAS</h2>
+      <h3>Video</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/n4wOsw9WZhk"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   );
 };
 
-const Modulo13 = [M2s1, M2s2];
+const Video2 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 13: CONDUCCIÓN EN CONDICIONES ADVERSAS</h2>
+      <h3>Video: CONDUCCIÓN EN LLUVIA</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/0af2rLDAQcU"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video3 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 13: CONDUCCIÓN EN CONDICIONES ADVERSAS</h2>
+      <h3>Video: SEGURIDAD EN CLIMAS EXTREMOS</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/jCDl9xwo1rA"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video4 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 13: CONDUCCIÓN EN CONDICIONES ADVERSAS</h2>
+      <h3>Video: CONDUCCIÓN CON NIEBLA O NEBLINA</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/t2KGMArCuv0"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video5 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 13: CONDUCCIÓN EN CONDICIONES ADVERSAS</h2>
+      <h3>Video: CONDUCCIÓN EN NIEVE O HIELO</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/e3Tw3c3a2AY"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video6 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 13: CONDUCCIÓN EN CONDICIONES ADVERSAS</h2>
+      <h3>Video: CONDUCIR CON CALOR</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/t124RW5JXJ0"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Modulo13 = [M13s1, Video, Video2, Video3, Video4, Video5, Video6];
 
 export default Modulo13;

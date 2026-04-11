@@ -29,6 +29,42 @@ const M2s1 = () => {
   );
 };
 
-const Modulo2 = [M2s1];
+const Video = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 2:  MANEJO DEFENSIVO</h2>
+      <h3>Video</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/VJRrCMhkrSU"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Video2 = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 2: MANEJO DEFENSIVO</h2>
+      <h3>Video: QUE ES EL MANEJO DEFENSIVO</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/C5nKDEaPxAU"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const Modulo2 = [M2s1, Video, Video2];
 
 export default Modulo2;

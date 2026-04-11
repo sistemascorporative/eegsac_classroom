@@ -33,7 +33,7 @@ function AccordianItem({ children, value, trigger, ...props }) {
         onClick={() => setSelected(open ? null : value)}
         className="flex justify-between items-center p-3 font-medium rounded-r-lg border-l-4 border-green-600 border"
       >
-        <p className="font-bold text-sky-700">{trigger}</p>
+        <p className="font-bold text-orange-700">{trigger}</p>
         <ChevronDown
           size={20}
           className={`transition-transform ${open ? "rotate-180" : ""}`}

@@ -7,7 +7,10 @@ const Header = () => {
   return (
     <div className="hidden sm:block w-full bg-white shadow-md px-5 py-5">
       <div className='flex flex-row justify-between items-center'>
-        <img src="/logo/logoSafety.png" alt="logo safety" style={{height:60}} />
+        <div className="flex flex-row items-center">
+          <img src="/logo/logoIcon.png" alt="logo eegsac" style={{height:60}} />
+          <p className="uppercase font-bold text-[18px]">Expert Engineers Group SAC</p>
+        </div>
         {/* Social Share */}
         <div className="">
           <div className="flex gap-1 items-center">

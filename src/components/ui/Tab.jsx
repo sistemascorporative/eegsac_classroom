@@ -124,7 +124,7 @@ const TabSections = ({ activeKey=0, sections }) => {
             className={`min-w-[40px] rounded-lg px-3 py-2 text-center text-[15px] cursor-pointer transition-all duration-500 ease-in-out
               ${
                 activeTab === index
-                ? 'bg-sky-400 bg-opacity-20 border border-b-4 border-sky-500 text-primary opacity-100'
+                ? 'bg-sky-400 bg-opacity-20 border border-b-4 border-sky-500 text-sky-600 opacity-100'
                 : 'bg-white opacity-60 border border-b-4 border-gray-400 hover:bg-sky-400 hover:bg-opacity-20 hover:border-[#357EC2] hover:border-opacity-10'
               }`}
             onClick={() => handleTabClick(index)}

@@ -14,8 +14,8 @@ export const certificadoOshaNfpa = async ({name, codeEst, docId, program, codeCe
     behindDocument: true,
   });
 
-  const imglogoSafety = getImage({
-    name: "logoSafety.png",
+  const imglogoEegsac = getImage({
+    name: "logoEegsac.png",
     height: 3.4,
     width: 7.2,
     horizontalOffset: 11.22,
@@ -263,7 +263,7 @@ export const certificadoOshaNfpa = async ({name, codeEst, docId, program, codeCe
           new Paragraph({
             children:[
               imgFondoDoc,
-              imglogoSafety,
+              imglogoEegsac,
               imgLogoAccredited,
               imgLogoNfpa,
               imgQR,

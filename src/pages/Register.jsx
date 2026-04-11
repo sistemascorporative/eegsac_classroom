@@ -114,7 +114,7 @@ const Register = ({ signup, isAuthenticated }) => {
             type="text"
             placeholder="Pais"
             register={register}
-            validation={{ required: true }}
+            validation={{ required: false }}
             errors={errors}
           />
           {/* Campo Ciudad */}
@@ -124,7 +124,7 @@ const Register = ({ signup, isAuthenticated }) => {
             type="text"
             placeholder="Ciudad"
             register={register}
-            validation={{ required: true }}
+            validation={{ required: false }}
             errors={errors}
           />
           {/* Campo Direccion */}
@@ -134,7 +134,7 @@ const Register = ({ signup, isAuthenticated }) => {
             type="text"
             placeholder="Direccion"
             register={register}
-            validation={{ required: true }}
+            validation={{ required: false }}
             errors={errors}
           />
           {/* Campo Contraseña */}

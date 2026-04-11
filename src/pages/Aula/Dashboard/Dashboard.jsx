@@ -5,8 +5,8 @@ function Dashboard() {
   return (
     <div className="space-y-5">
       <h2 className="text-center">Bienvenidos al aula virtual de
-        <span className="text-sky-700 uppercase"> Expert Engineers </span>
-        <span className="text-sky-900 uppercase">Group SAC</span></h2>
+        <span className="text-primary uppercase"> Expert Engineers </span>
+        <span className="text-orange-700 uppercase">Group SAC</span></h2>
       <p>En el menú de nuestra plataforma usted encontrará 3 items, a continuación le explicamos que contiene cada submenú.</p>
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">

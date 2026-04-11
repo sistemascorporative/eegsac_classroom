@@ -14,8 +14,7 @@ import Modulo13 from './Modulo13';
 import Modulo14 from './Modulo14';
 import Modulo15 from './Modulo15';
 import Modulo16 from './Modulo16';
-import Modulo17 from './Modulo17';
 
-const Modulos = [Modulo1, Modulo2, Modulo3, Modulo4, Modulo5, Modulo6, Modulo7, Modulo8, Modulo9];
+const Modulos = [Modulo1, Modulo2, Modulo3, Modulo4, Modulo5, Modulo6, Modulo7, Modulo8, Modulo9, Modulo10, Modulo11, Modulo12, Modulo13, Modulo14, Modulo15, Modulo16];
 
 export default Modulos;

@@ -28,7 +28,7 @@ const CardPrograma = ({ id, nombre, nhoras, ncursos, codigo}) => {
         </div>
         <div className="px-5 pb-5">
           <span className="relative grid h-24 w-24 -mt-14 p-2 border-primary border-8 place-items-center rounded-full bg-white transition-all duration-300 group-hover:bg-grisFondo">
-            <img src="/logo/logoSafety.png" alt="grado"/>
+            <img src="/logo/logoEegsac.png" alt="grado"/>
           </span>
           <div
             className="mt-2 text-base leading-7 text-gray-600 transition-all duration-300"

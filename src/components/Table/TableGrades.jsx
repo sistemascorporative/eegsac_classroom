@@ -96,7 +96,7 @@ function TableGrades ({ nombreID, columns, data, nombre, onCourse, onExam, click
                     column.isSorted
                       ? column.isSortedDesc
                         ? "border-b-4 border-secondary"
-                        : "border-t-4 border-sky-500"
+                        : "border-t-4 border-orange-500"
                       : ""
                   }
                 >

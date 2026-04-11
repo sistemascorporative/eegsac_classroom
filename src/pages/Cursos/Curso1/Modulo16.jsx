@@ -1,141 +1,75 @@
-import { ListPoint, ListPointBold } from "../../../components/ui/List";
-import { ImageTextForSection } from "../../../components/ui/Imagen";
+import { ImageForSection } from "../../../components/ui/Imagen";
+import { ListPointBold } from "../../../components/ui/List";
 
 
 const M16s1 = () => {
   return (
     <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 16: MOTIVANDO LA CONDUCCIÓN SEGURA</h2>
+      <ImageForSection
+        src="/img-cursos/1/1m16s1-1.jpeg"
+      />
+      <p>Conducir es una acción compleja que nos exige mucho más de lo que parece. Involucra al conductor psicológica y físicamente. Por ello, el logro de un desempeño correcto depende, no sólo de las habilidades adquiridas por el conductor para dominar su vehículo en todo tiempo y circunstancia, y del adecuado estado físico para poder percibir adecuadamente las situaciones del camino, sino que también depende de la experiencia, de la clara conciencia de los riesgos de moverse en el sistema del tránsito, y de la madurez y equilibrio emocionales, que harán posible el desarrollo de actitudes y comportamientos seguros, o sea que prevengan accidentes, responsables y solidarios con los demás usuarios de la vía pública.</p>
+      <h3>ESTAR BIEN FÍSICAMENTE</h3>
+      <p>Conocer el propio estado de salud es importante para el conductor. Ciertas enfermedades, cardíacas, hipertensión, diabetes, o epilepsia, entre otras, pueden afectar la manera de conducir. Consultar al médico en cuanto a la posibilidad de tener problemas al conducir a causa de una enfermedad, o de los medicamentos usados en su tratamiento, es esencial para evitar vivir malos momentos al volante.</p>
+      <h3>DROGAS Y CONDUCCIÓN</h3>
+      <p>El alcohol es un tóxico depresor del sistema nervioso. Aunque Ud. no lo note, un sólo vaso de vino, cerveza, whisky, etc., disminuye su capacidad de conducción, ya que: Embota los sentidos, altera la percepción y disminuye la capacidad de atención. Se alargan los tiempos de reacción, por lo que las respuestas y maniobras se hacen más lentas y torpes. La visión se ve afectada, en especial, empeora la visión periférica (a los lados), se hace más lenta la adaptación a los cambios de luz (por ej. en caso de encandilamiento), y se perciben con dificultad los tonos rojos (tardan en reconocerse las luces rojas del semáforo, las luces de posición y las de freno). Genera una falsa sensación de seguridad, con errores de juicio e interpretación, que predispone a excesos de velocidad y a todo tipo de violaciones a las normas de seguridad en el tránsito.</p>
+      <h3>ESTAR BIEN EMOCIONALMENTE</h3>
+      <p>Algunas personas piensan que una vez que se aprendió a conducir y se tienen años de experiencia en su haber, ya se es un conductor seguro. Sin embargo, no siempre es así. Es cierto que la experiencia de horas al volante aumenta la destreza y ayuda a conducir mejor. De hecho, en los primeros cuatro años de conducción las personas tienden a sufrir más accidentes que en los años posteriores. Sin embargo, también los conductores experimentados sufren graves accidentes. Inclusive, estudios americanos han demostrado que, estadísticamente, los corredores de carrera sufren más cantidad de accidentes de tránsito, fuera de la pista de carrera, que los conductores comunes. La posibilidad de sufrir accidentes depende, especialmente, de las condiciones emocionales y las actitudes al conducir. Todo el proceso de la conducción, mientras el conductor atiende selectivamente a la situación del tránsito, la manera en que la percibe, el modo en que interpreta y juzga los hechos, hasta cuando decide cómo actuar y actúa, se encuentran influidos por su personalidad, el estado emocional, la autoconfianza, las preocupaciones, sus actitudes frente al riesgo, etc. Por ello es importante reconocer en uno mismo, aquellas situaciones vitales, o circunstancias, que pueden, por razones emocionales, perjudicar un desempeño seguro en el tránsito. Y también estar atento para detectar estos problemas en los comportamientos problemáticos de los demás usuarios de la vía, para actuar en consecuencia y evitar accidentes.</p>
+      <h3>LAS REGLAS DE LA CONDUCCIÓN SEGURA</h3>
+      <p className="font-bold">CONOCER Y RESPETAR LAS NORMAS Y SEÑALES DE TRÁNSITO</p>
+      <p>Las normas y las señales de tránsito equivalen a las reglas de un juego. Así como no se puede jugar un partido de fútbol sin conocer y respetar las reglas, tampoco se puede conducir en el tránsito sin conocer y respetar sus reglas. Ellas ordenan el sistema y nos permiten interactuar con los demás usuarios de la vía en forma segura y llegar a destino, entendiéndonos con los demás "compañeros" de la vía pública sin tener incidentes ni sufrir accidentes.</p>
+      <p className="font-bold">ESTAR SIEMPRE ATENTO Y ALERTA ACERCA DE LO QUE HACEN LOS DEMÁS USUARIOS DE LA VÍA PÚBLICA</p>
+      <p>Usualmente, cuando salimos a la calle pensamos en que tenemos que llegar a un lugar determinado en un tiempo determinado o aproximado. Rara vez tomamos conciencia de que para cumplir nuestro objetivo dependemos de lo que los otros hacen en el espacio que compartimos de la vía pública. Pero así es, para llegar a destino debemos estar atentos al comportamiento de los demás usuarios de la vía, tanto conductores como peatones, anticipar sus posibles acciones correctas e incorrectas, para actuar en consecuencia. Mantener la atención en el entorno del sistema del tránsito, todo el tiempo, es indispensable.</p>
+      <h3>QUÉ HACER EN SITUACIONES PROBLEMÁTICAS DEL TRÁNSITO.</h3>
+      <h4>Cuando un animal obstruye el camino.</h4>
+      <p>Reduzca la velocidad. Evite frenar a fondo y hacer maniobras bruscas, ya que puede perder el control del vehículo. Toque la bocina varias veces para tratar de que el animal se movilice y si es posible y necesario, frene. Si es de noche y lleva las luces altas encendidas cámbielas por las bajas. Si no logra frenar a tiempo, trate de evitar la colisión desviándose hacia la derecha. En caso de no poder evitar atropellarlo, sujete fuertemente el volante, y suelte el freno en el momento de hacer impacto contra el animal. Y tenga en cuenta que, si se trata de un animal pequeño, por ejemplo, una liebre, una perdiz, un gato, es preferible atropellarlo a arriesgarse a sufrir un accidente por una maniobra brusca y apresurada. No olvide dar aviso a la autoridad policial más cercana o, en su defecto, al concesionario de la ruta u otra autoridad, si observa animales sueltos o un animal muerto que obstaculice el camino.</p>
+      <h4>Ante un choque inevitable.</h4>
+      <p>Decíamos que, un conductor seguro se mueve en el sistema del tránsito de manera de anticiparse a las situaciones de riesgo, para actuar a tiempo y evitar el accidente pero, si a pesar de todo, la conducta de los otros conductores o peatones, un desperfecto mecánico, o un error propio desencadenan un accidente que no puede evitarse, la reacción del conductor puede marcar la diferencia en cuanto a los daños a sufrir. Ante esta situación:</p>
+      <ListPointBold list={[
+        "Reduzca rápidamente la velocidad: Para ello apriete el freno con presión firme y constante. Si nota que el vehículo se bandea o patina, suelte el freno, evite tocar la dirección en exceso y vuelva a frenar con firmeza. Atención: si su vehículo cuenta con frenos ABS (antibloqueo), no bombee el freno, sino manténgalo firmemente presionado.",
+        "Evite chocar frontalmente: Y procure desviarse del objeto de colisión. Es preferible salirse del camino, o un choque lateral."
+      ]}/>
+    </div>
+  );
+};
+
+const Video = () => {
+  return(
+    <div className="space-y-3">
       <h2 className="uppercase text-center text-secondary">MÓDULO 16: TÉCNICAS DE CONDUCCIÓN EFECTIVA</h2>
-      <ImageTextForSection
-        src="/img-cursos/10/10mt.jpg"
-        text=""
-      />
-      El Arte de Ajustar tu Asiento
-      Imagina que estás a punto de comenzar una carrera importante. Lo primero que harías sería asegurarte de que tu posición es perfecta, ¿verdad? Bueno, la conducción diaria no es muy diferente. Aquí tienes algunos consejos:
-
-      Siéntate de manera que puedas alcanzar los pedales sin estirar demasiado las piernas.
-      Ajusta el respaldo para que tu espalda esté cómodamente apoyada.
-      Asegúrate de que tus ojos estén a la altura del centro del parabrisas.
-      ¿Suena sencillo? ¡Lo es! Pero es sorprendente cuántas personas pasan por alto estos detalles.
-
-      Espejos: Tus Ojos en la Carretera
-      Ahora, hablemos de tus espejos. Son como tus superhéroes silenciosos, siempre vigilando tu espalda. Pero necesitan estar bien ajustados para hacer su trabajo. Aquí tienes una guía rápida:
-
-      Espejo retrovisor central: Ajústalo para ver claramente la parte trasera de tu vehículo.
-      Espejos laterales: Inclínalos ligeramente hacia abajo para reducir los puntos ciegos.
-      Recuerda, un buen ajuste de los espejos puede ser la diferencia entre un viaje tranquilo y un susto innecesario.
-
-      El Cinturón de Seguridad: Tu Mejor Amigo en la Carretera
-      Por último, pero no menos importante, está tu cinturón de seguridad. Es como un abrazo protector durante todo tu viaje. Asegúrate de que esté bien ajustado, pasando sobre tu regazo y diagonal sobre tu pecho. ¿Sabías que usar el cinturón de seguridad reduce el riesgo de lesiones graves en un accidente en un 50%?
-
-      Dominando el Arte del Arranque y la Parada
-      Ahora que estás cómodamente sentado y seguro, es hora de poner en marcha ese motor. Pero espera, ¿conoces las técnicas de conducción segura para arrancar y detener tu vehículo correctamente?
-
-      El Ritual del Arranque
-      Antes de girar la llave (o presionar ese moderno botón de arranque), asegúrate de que:
-
-      El freno de mano esté puesto.
-      La palanca de cambios esté en punto muerto (o en «P» si es automático).
-      Tu pie esté en el freno (¡sí, incluso antes de arrancar!).
-      Una vez que el motor esté en marcha, dale un momento para que se caliente. Es como despertar por la mañana; todos necesitamos un minuto para ponernos en marcha, ¿no?
-
-      La Danza de la Parada
-      Detener el vehículo es tan importante como ponerlo en marcha. Aquí tienes los pasos para una parada suave y segura:
-
-      Suelta el acelerador con suavidad.
-      Aplica el freno gradualmente.
-      Una vez detenido, pon el freno de mano y la palanca en «P» o primera, dependiendo de tu vehículo.
-
-      Recuerda, una parada suave no solo es más cómoda, sino que también ahorra combustible y reduce el desgaste de tu vehículo. ¡Es una victoria en todos los sentidos!
-
-      El Secreto de los Retrovisores y Puntos Ciegos
-      ¿Alguna vez has tenido esa sensación de que hay algo que no estás viendo en la carretera? Probablemente estabas lidiando con los infames puntos ciegos. Dominar el uso de los retrovisores y entender los puntos ciegos son técnicas de conducción segura cruciales.
-
-      Retrovisores: Tu Sistema de Vigilancia Personal
-      Tus retrovisores son como tu equipo de seguridad personal. Aquí tienes algunos consejos para usarlos como un profesional:
-
-      Verifica tus retrovisores cada 5-8 segundos.
-      Antes de cambiar de carril, mira tus espejos y luego gira la cabeza para verificar el punto ciego.
-      Ajusta tus espejos laterales para minimizar los puntos ciegos. ¿Cómo? Inclínalos hacia afuera hasta que apenas puedas ver el lateral de tu propio vehículo.
-      Combatiendo los Puntos Ciegos
-      Los puntos ciegos son esas áreas alrededor de tu vehículo que no puedes ver directamente. Pero no te preocupes, hay formas de manejarlos:
-
-      Realiza un «chequeo de hombro» antes de cambiar de carril.
-      Mantén una distancia segura con otros vehículos para tener mejor visibilidad.
-      Si tu vehículo tiene tecnología de detección de puntos ciegos, aprende a usarla, pero no dependas completamente de ella.
-      ¿Sabías que aproximadamente el 14% de los accidentes de tráfico se deben a cambios de carril inadecuados?
-
-      La Regla de Oro: Distancia y Velocidad
-      Ahora, vamos a hablar de dos de las técnicas de conducción segura más importantes: mantener la distancia adecuada y controlar tu velocidad. Estos dos factores pueden ser la diferencia entre llegar a tu destino con seguridad y enfrentarte a una situación peligrosa.
-
-      La Regla de los 3 Segundos
-      ¿Has oído hablar de la regla de los 3 segundos? Es una forma sencilla de mantener una distancia segura:
-
-      Elige un punto fijo en la carretera por delante.
-      Cuando el vehículo frente a ti pase ese punto, cuenta «mil uno, mil dos, mil tres».
-      Si llegas al punto antes de terminar de contar, estás demasiado cerca. ¡Aumenta la distancia!
-      En condiciones climáticas adversas, aumenta este tiempo a 6 segundos. ¿Parece mucho? Créeme, esos segundos extra pueden salvarte la vida.
-
-      Velocidad: No Es Solo Cuestión de Límites
-      Respetar los límites de velocidad es crucial, pero las técnicas de conducción segura van más allá. La velocidad adecuada depende de varios factores:
-
-      Condiciones climáticas (¿está lloviendo? ¿hay niebla?)
-      Estado de la carretera (¿curvas? ¿baches?)
-      Densidad del tráfico
-      Tu estado de ánimo y nivel de alerta
-      Recuerda, conducir más despacio te da más tiempo para reaccionar. Y hablando de reacciones…
-
-      Técnicas Avanzadas para Situaciones Inesperadas
-      A veces, no importa cuán cuidadoso seas, te encuentras en situaciones que requieren reacciones rápidas. Aquí es donde las técnicas de conducción segura avanzadas entran en juego.
-
-      El Arte del Frenado de Emergencia
-      ¿Sabes cómo frenar correctamente en una emergencia? Muchos conductores entran en pánico y bloquean las ruedas. En su lugar:
-
-      Pisa el freno con firmeza y constancia.
-      Si tu vehículo tiene ABS, mantén el pedal presionado.
-      Si no tienes ABS, bombea el freno rápidamente.
-      Practica estas técnicas en un lugar seguro. ¡La práctica hace al maestro!
-
-      Maniobras Evasivas
-      A veces, frenar no es suficiente y necesitas esquivar un obstáculo. Aquí tienes algunos consejos:
-
-      Mantén la calma (sí, es difícil, pero crucial).
-      Mira hacia donde quieres ir, no hacia el obstáculo.
-      Gira el volante con firmeza pero sin brusquedad.
-      Una vez pasado el peligro, endereza el vehículo suavemente.
-
+      <h3>Video</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/c9kDecCXfiM"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   );
 };
 
-const M2s2 = () => {
-  return (
+const Video2 = () => {
+  return(
     <div className="space-y-3">
-      <h2></h2>
-      <ImageTextForSection
-        src="/img-cursos/10/10ms.png"
-        text=""
-      />
-      <ListPoint list={[
-      ]}/>
+      <h2 className="uppercase text-center text-secondary">MÓDULO 16: TÉCNICAS DE CONDUCCIÓN EFECTIVA</h2>
+      <h3>Video: LA MUERTE HABLANDO DE LOS PELIGROS Y RIESGOS MIENTRAS CONDUCES</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/8yXPfQ3_V1M"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   );
 };
 
-const M2s3 = () => {
-  return (
-    <div className="space-y-3">
-      <h2></h2>
-      <ImageTextForSection
-        src="/img-cursos/10/10ms.png"
-        text=""
-      />
-      <ListPoint list={[
-      ]}/>
-    </div>
-  );
-};
-
-const Modulo16 = [M16s1];
+const Modulo16 = [M16s1, Video, Video2];
 
 export default Modulo16;

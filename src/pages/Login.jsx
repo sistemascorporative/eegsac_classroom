@@ -37,12 +37,12 @@ function Login({ login, isAuthenticated }) {
     <div className="flex flex-col h-screen justify-between bg-grisFondo">
       <TopBar />
       { /* Formulario - imagen */}
-      <section className="h-full my-auto flex flex-col md:flex-row justify-center items-center mt-5 sm:mt-10">
+      <section className="h-full my-auto flex flex-col md:flex-row justify-center items-center mt-5 sm:mt-10 gap-10">
         {/* Formulario */}
         <div className="mx-auto sm:mx-0 py-10 px-5 flex flex-col justify-center">
           <div className="relative py-3 sm:max-w-2xl sm:mx-auto">
             <div
-              className="absolute inset-0 bg-gradient-to-r from-primary to-azulClaro shadow-lg transform -skew-y-6 sm:skew-y-0 -rotate-6 rounded-2xl">
+              className="absolute inset-0 bg-gradient-to-r from-primary to-orange-300 shadow-lg transform -skew-y-6 sm:skew-y-0 -rotate-6 rounded-2xl">
             </div>
             <div className="relative sm:min-w-[350px] px-5 py-10 sm:p-10 bg-white shadow-lg rounded-2xl">
               <div className="flex flex-col gap-5">
@@ -98,7 +98,7 @@ function Login({ login, isAuthenticated }) {
                   <div>
                     <button
                       type="submit"
-                      className="flex w-full justify-center rounded-md bg-azulMedio px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                      className="flex w-full justify-center rounded-md bg-orange-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       Iniciar sesión
                     </button>
@@ -115,16 +115,12 @@ function Login({ login, isAuthenticated }) {
           </div>
         </div>
         {/* Imagen */}
-        <div className='flex flex-col gap-15 justify-center items-center'>
-          <span className='hidden sm:block'> <img className='item-center' src="/logo/logoSafety.png" alt="safety" style={{width:200, height:80}}/> </span>
-          <span className='hidden sm:block'> <img className='' src="/images/login.png" alt="person" style={{width:430, height:300}}/> </span>
+        <div className='items-center flex'>
+          <span className='hidden sm:block'>
+            <img className='item-center max-w-[300px]' src="/logo/logoEegsac.png" alt="eegsac"/>
+          </span>
         </div>
       </section>
-
-      {/* Footer logos */}
-      <div className='flex p-2'>
-        <img src="/logo/logoAccreditedEducation.png" alt="Accredited Education" className='w-20'/>
-      </div>
     </div>
   )
 }

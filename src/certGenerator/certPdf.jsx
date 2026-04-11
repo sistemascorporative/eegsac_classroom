@@ -182,7 +182,7 @@ function CertificadooPDF({idPerson, nombre, documento, nombrePrograma, dia, mes,
         />
         <Image 
           style={styles.imgOSHA}
-          src="/logo/logoSafety.png"
+          src="/logo/logoEegsac.png"
         />
         <Image 
           style={styles.logoAcredited}

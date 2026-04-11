@@ -36,7 +36,7 @@ function GlobalFilter({
   return (
     <div className="flex flex-1 min-w-[180px] items-center border border-primary rounded-md p-2 gap-2">
       <span>
-        <BsSearch className='w-5 h-5 text-primary'/>
+        <BsSearch className='w-5 h-5 text-sky-400'/>
       </span>
       <input
         type="search"

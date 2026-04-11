@@ -96,7 +96,7 @@ function SideBarMenu({ logout, isAuthenticated, children }) {
         <div className={`md:w-full h-auto flex items-end transition-all duration-1000 ease-in-out
           ${isOpen ? 'justify-end' : 'justify-center'}`}
         >
-          <div className="text-white flex flex-row items-center h-auto px-1 py-1 gap-2.5 hover:bg-sky-500 hover:transition-all hover:duration-500 hover:rounded-lg cursor-pointer" onClick={logoutUser}>
+          <div className="text-white flex flex-row items-center h-auto px-1 py-1 gap-2.5 hover:bg-orange-500 hover:transition-all hover:duration-500 hover:rounded-lg cursor-pointer" onClick={logoutUser}>
             <p className={`text-white ${isOpen ? 'block' : 'hidden'}`}>Cerrar Sesión</p>
             <IoIosLogOut style={{ width:28, height:28 }} />
           </div>
@@ -119,9 +119,9 @@ function SidebarItem({ item, isOpen, active, onClick }) {
     <NavLink
       to={path}
       className={`sm:w-[80px] md:w-full h-[50px] flex items-center no-underline sm:px-2 md:py-1.5 md:px-4 gap-2 self-stretch transition-all duration-500 rounded-lg transition-all duration-500
-        hover:bg-sky-400 hover:transition-all hover:duration-500 hover:rounded-lg cursor-pointer
+        hover:bg-orange-400 hover:transition-all hover:duration-500 hover:rounded-lg cursor-pointer
         ${isOpen ? "" : "h-auto flex flex-col gap-1 py-2 comprimido"}
-        ${active ? "bg-sky-500" : ""}`}
+        ${active ? "bg-orange-700" : ""}`}
       onClick={onClick}
       style={{ justifyContent: isOpen ? "" : "center" }}
       key={name}

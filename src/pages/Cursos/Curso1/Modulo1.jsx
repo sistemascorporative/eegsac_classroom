@@ -4,7 +4,7 @@ import { ImageForSection } from "../../../components/ui/Imagen";
 const M1s1 = () => {
   return (
     <div className="space-y-3">
-      <h2 className="uppercase text-center text-secondary">MÓDULO 1:  NORMAS VIGENTE</h2>
+      <h2 className="uppercase text-center text-secondary">MÓDULO 1:  NORMAS VIGENTES</h2>
       <ImageForSection
         src="/img-cursos/1/1m1s1-1.jpeg"
       />
@@ -32,6 +32,24 @@ const M1s1 = () => {
   );
 };
 
-const Modulo1 = [M1s1];
+const Video = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 1:  NORMAS VIGENTES</h2>
+      <h3>Video</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/kJHaflzy-A4"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  )
+}
+
+const Modulo1 = [M1s1, Video];
 
 export default Modulo1;

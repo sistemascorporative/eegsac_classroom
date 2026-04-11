@@ -5,8 +5,8 @@ const TopBar = () => {
   return (
     <header className="w-full flex flex-col sm:flex-row px-5 py-5 gap-3 bg-white shadow-lg justify-between">
       <img
-        className="mx-auto sm:mx-0 w-[150px] h-auto"
-        src="/logo/logoSafety.png"
+        className="mx-auto sm:mx-0 max-w-[90px] h-auto"
+        src="/logo/logoIcon.png"
         alt="eeegsac"
       />        
       <div className="mx-auto sm:mx-0 flex flex-row items-center gap-1">

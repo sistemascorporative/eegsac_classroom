@@ -5,7 +5,7 @@ import { ListNumberedBold } from "../../../components/ui/List";
 const M5s1 = () => {
   return (
     <div className="space-y-3">
-      <h2 className="uppercase text-center text-secondary">MÓDULO 5: CAUSAS DE LOS ACCIDENTES</h2>
+      <h2 className="uppercase text-center text-secondary">MÓDULO 5: CAUSAS DE LOS ACCIDENTES DE TRÁNSITO</h2>
       <ImageForSection
         src="/img-cursos/1/1m5s1-1.jpeg"
       />
@@ -27,6 +27,24 @@ const M5s1 = () => {
   );
 };
 
-const Modulo5 = [M5s1];
+const Video = () => {
+  return(
+    <div className="space-y-3">
+      <h2 className="uppercase text-center text-secondary">MÓDULO 5: CAUSAS DE LOS ACCIDENTES DE TRÁNSITO</h2>
+      <h3>Video</h3>
+      <div className="relative overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/W7JmIrYhUhw"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  )
+}
+
+const Modulo5 = [M5s1, Video];
 
 export default Modulo5;

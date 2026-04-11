@@ -89,32 +89,32 @@ function CursoDetalle() {
               className="lg:max-w-xs text-left font-medium text-lg leading-none border-primary divide-y divide-primary">
               <li>
                 <a 
-                  className={`py-3.5 w-full flex items-center text-azulMedio hover:text-primary rounded-lg hover:bg-gray-100 ${activeIndex === 0 ? 'bg-blue-50' : ''}`}
+                  className={`py-3.5 w-full flex items-center text-primary hover:text-primary rounded-lg hover:bg-gray-100 ${activeIndex === 0 ? 'bg-blue-50' : ''}`}
                   href="#"
                   onClick={() => handleClick(<CursoComponents.Introduccion/>, 0)}
                 >
-                  <span className="ml-5 mr-2.5 w-1 h-7 bg-azulMedio rounded-r-md"></span>
+                  <span className="ml-5 mr-2.5 w-1 h-7 bg-primary rounded-r-md"></span>
                   Introducción
                 </a>
               </li>
               <li>
                 <a 
-                  className={`py-3.5 w-full flex items-center text-azulMedio hover:text-primary rounded-lg hover:bg-gray-100 ${activeIndex === 1 ? 'bg-blue-50' : ''}`}
+                  className={`py-3.5 w-full flex items-center text-primary hover:text-primary rounded-lg hover:bg-gray-100 ${activeIndex === 1 ? 'bg-blue-50' : ''}`}
                   href="#"
                   onClick={() => handleClick(<CursoComponents.Objetivos/>, 1)}
                 >
-                    <span className="ml-5 mr-2.5 w-1 h-7 bg-azulMedio rounded-r-md"></span>
+                    <span className="ml-5 mr-2.5 w-1 h-7 bg-primary rounded-r-md"></span>
                     Objetivos del curso
                 </a>
               </li>
               {CursoComponents && CursoComponents.Modulos && CursoComponents.Modulos.map((modulo, index) => (
                 <li key={index}>
                   <a 
-                    className={`py-3.5 w-full flex items-center text-azulMedio hover:text-primary rounded-lg hover:bg-gray-100 ${activeIndex === index + 2 ? 'bg-blue-50' : ''}`}
+                    className={`py-3.5 w-full flex items-center text-primary hover:text-primary rounded-lg hover:bg-gray-100 ${activeIndex === index + 2 ? 'bg-blue-50' : ''}`}
                     href="#"
                     onClick={() => handleClick(<TabSections activeKey={0} sections={modulo} />, index+2)}
                   >
-                    <span className="ml-5 mr-2.5 min-w-1 max-w-2 h-7 bg-azulMedio rounded-r-md"></span>
+                    <span className="ml-5 mr-2.5 min-w-1 max-w-2 h-7 bg-primary rounded-r-md"></span>
                     <div className="flex flex-row lg:flex-col gap-1">
                       Módulo {index+1}:
                       {modulos && modulos[index] ? (
@@ -128,11 +128,11 @@ function CursoDetalle() {
               ))}
               <li>
                 <a
-                  className={`py-3.5 w-full flex items-center text-azulMedio rounded-lg hover:text-primary hover:bg-gray-100 ${activeIndex === modulos.length + 2 ? 'bg-blue-50' : ''}`}
+                  className={`py-3.5 w-full flex items-center text-primary rounded-lg hover:text-primary hover:bg-gray-100 ${activeIndex === modulos.length + 2 ? 'bg-blue-50' : ''}`}
                   href="#"
                   onClick={() => handleClick(<InstruccionesExamen idExamen={curso.curcod} idPrograma={params.idPrograma} />, modulos.length + 2)}
                 >
-                    <span className="ml-5 mr-2.5 w-1 h-7 bg-azulMedio rounded-r-md"></span>
+                    <span className="ml-5 mr-2.5 w-1 h-7 bg-primary rounded-r-md"></span>
                     Examen final
                 </a>
               </li>

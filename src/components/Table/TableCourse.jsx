@@ -98,14 +98,14 @@ function TableCourse ({ nombreID, columns, data, nombre, onCourse, onExam, click
                       column.isSorted
                         ? column.isSortedDesc
                           ? "border-b-4 border-secondary"
-                          : "border-t-4 border-sky-500"
-                        : "border-2 border-sky-600"
+                          : "border-t-4 border-orange-500"
+                        : "border-2 border-orange-600"
                     }
                 >
                   {column.render("Header")}
                 </th>
               ))}
-              <th className="border-2 border-sky-600">Acciones</th>
+              <th className="border-2 border-orange-600">Acciones</th>
             </tr>
           ))}
         </thead>
